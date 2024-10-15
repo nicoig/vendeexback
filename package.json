@@ -1,0 +1,23 @@
+{
+  "name": "image-analysis-backend",
+  "version": "1.0.0",
+  "description": "Backend for image analysis using OpenAI API",
+  "scripts": {
+    "start:social": "node server-social-media.js",
+    "start:ads": "node server-meta-ads.js",
+    "start:voice": "node server-voice.js",
+    "dev:social": "nodemon server-social-media.js",
+    "dev:ads": "nodemon server-meta-ads.js",
+    "dev:voice": "nodemon server-voice.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0",
+    "cors": "^2.8.5",
+    "multer": "^1.4.3",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
